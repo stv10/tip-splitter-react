@@ -109,6 +109,10 @@ html, body {
     box-shadow: 0 0 0 0.25rem var(--strong-cyan)!important;
 }
 
+.form-control .alert {
+    box-shadow: 0 0 0 0.25rem #FC7300!important;
+}
+
 .btn-primary {
     background-color: var(--very-dark-cyan)!important;
     border-color: var(--very-dark-cyan)!important;
