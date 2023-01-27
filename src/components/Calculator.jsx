@@ -6,7 +6,7 @@ import { ResultBoard } from "./ResultBoard";
 export const Calculator = () => {
   return (
     <div className="d-flex col-12 col-md-10 flex-column flex-md-row container-fluid border rounded-5 h-80 bg-white align-items-center">
-      <div className="col-12 col-md-6">
+      <div className="col-12 col-md-6 half">
         <InputBill
           text={"Bill"}
           icon={"icon-dollar"}
@@ -21,7 +21,7 @@ export const Calculator = () => {
           key={2}
         />
       </div>
-      <div className="col-12 col-md-6">
+      <div className="col-12 col-md-6 half p-3">
         <ResultBoard />
       </div>
     </div>

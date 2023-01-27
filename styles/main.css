@@ -32,6 +32,10 @@ html, body {
 
 /* ALTURAS */
 
+.half {
+    height: auto;
+}
+
 .h-20 {
     height: 20%;
 }
@@ -159,5 +163,9 @@ html, body {
 @media (min-width: 768px){
     .h-80 {
         height: 70%;
+    }
+
+    .half {
+        height: 100%;
     }
 }
