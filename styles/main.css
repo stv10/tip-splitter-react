@@ -118,6 +118,11 @@ html, body {
     border-color: var(--very-dark-cyan)!important;
 }
 
+.active {
+    background-color: var(--very-dark-cyan)!important;
+    border-color: var(--very-dark-cyan)!important;
+}
+
 .btn-primary:focus {
     background-color: var(--strong-cyan)!important;
     border-color: var(--strong-cyan)!important;
